@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dessert</title>
+   <link rel="stylesheet" type="text/css" href="recipe.css">
+   <style>
+        body {
+		      background-image:url("bgsign.jpg");
+			  background-repeat:no-repeat;
+              background-size:cover;
+			 }
+		h1 { 
+	        text-align:center;
+			color:lightgrey;
+			font-family:Emilys Candy;
+			src:url(Emily_Candy);
+			font-size:100px;
+		    margin-top:70px;
+			}
+        .container {
+                    position: relative;
+                    width: 30%;
+                    max-width: 250px;
+                   }
+		.image {
+                display: block;
+                width: 100%;
+                height: 100%;
+				margin-bottom:30px;
+                }
+		.overlay {
+                  position: absolute;
+                  bottom: 0;
+                  background: rgb(0, 0, 0);
+                  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+                  color: #f1f1f1;
+                  width: 100%;
+                  transition: .3s ease;
+                  opacity:0;
+                  color: white;
+                  font-size: 20px;
+                  padding: 20px;
+                  text-align: center;
+                }
+		.container:hover .overlay {
+                                   opacity: 1;
+                                  }
+
+	</style>
+	            
+</head>
+
+   <body>
+       <h1>DESSERT MENU</h1>
+	    <center>
+	     <div class="container">
+		       <a href="jar.html" target="_blank">
+             <img src="chocojar.jpg" alt="Avatar" class="image" width="300" height="300">
+             <div class="overlay">Cadbury Chocojar</div></a>
+         </div>
+		 
+		 <div class="container">
+		     <a href="roti.html" target="_blank">
+             <img src="roti.jpg" alt="Avatar" class="image" width="300" height="300">
+             <div class="overlay">Roti Sangkaya</div></a>
+         </div>
+		 
+		 <div class="container">
+		     <a href="cake.html" target="_blank">
+             <img src="cake.jpg" alt="Avatar" class="image" width="300" height="300">
+             <div class="overlay">Choc Lava Cake</div></a>
+         </div>
+        </center>
+   </body>
+
+</html>
